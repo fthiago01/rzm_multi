@@ -6,8 +6,7 @@ O **Zabbix Host Migrator** é uma ferramenta desenvolvida para facilitar a migra
 
 ### Requisitos
 
-- **Windows** ou **Linux** (com Python instalado)
-- **Python 3.x** (para rodar o código fonte ou modificar se necessário)
+- **Windows** ou **Linux**
 - **Planilha Excel** contendo informações dos hosts a serem migrados para o Zabbix
 
 ### Passo a Passo
@@ -60,18 +59,6 @@ O **Zabbix Host Migrator** é uma ferramenta desenvolvida para facilitar a migra
 - **SNMP Version**: A versão SNMP pode ser configurada diretamente na interface, podendo ser **1**, **2**, ou **3**, dependendo do tipo de configuração do host.
 - **Status do Host**: O status dos hosts pode ser configurado para **Ativo** ou **Inativo**, dependendo da necessidade da sua infraestrutura.
 
-### 👨‍💻 **Como Compilar o Código**
-
-Se você quiser compilar o código para gerar o seu próprio executável, siga os passos abaixo:
-
-1. **Instalar Dependências**:
-   - `pip install -r requirements.txt` (inclui `requests`, `pandas`, `tkinter`, etc.)
-
-2. **Gerar o Executável** (para Windows/Linux):
-   - Utilize o PyInstaller para compilar o código com o ícone:
-     ```bash
-     pyinstaller --onefile --icon=icon.ico --noconsole migrationGui.py
-     ```
 
 ### 🔐 **Aviso de Segurança**
 
@@ -99,4 +86,4 @@ Este software é distribuído sob a **MIT License**. Consulte o arquivo LICENSE 
 
 ---
 
-![Zabbix Logo](https://upload.wikimedia.org/wikipedia/commons/7/73/Zabbix_Logo.png)
+![Zabbix Logo]([https://upload.wikimedia.org/wikipedia/commons/7/73/Zabbix_Logo.png](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Zabbix_logo.svg/1280px-Zabbix_logo.svg.png))
